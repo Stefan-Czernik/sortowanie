@@ -1,0 +1,10 @@
+Zad 1:Na podstawie poniższego interfejsu zaimplementuj dwie klasy realizujące sortowanie odpowiednio bąbelkowe i kubełkowe oraz zliczające sumę wykonywanych porównań. 
+Stworzono klasy: Sortowanie, SortowanieBbabelkowe, SortowanieKubelkowe. 
+Stworzono interfejs: Sortable 
+Sortowanie Bbabelkowe oraz SortowanieKubelkowe implementuje interfejs Sortable
+Stworzono tablicę składającą się z 200 liczb w losowej kolejności. 
+Zaimplementowano metodę sort, w której w zależności od klasy w której została nadpisana odbywa się odpowiednio sortowanie bąbelkowe bądz kubełkowe.
+Dodatkowo pobierana jest informacja od użytkownika, które sortowanie ma być wykonane. 
+W przypadku metody step_counting zwraca ona ilość wykonywanych porównań
+
+
