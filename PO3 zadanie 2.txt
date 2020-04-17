@@ -1,0 +1,13 @@
+Iterable
+
+ public interface  Iterable <E> {
+ Iterator <E> iterator () ;
+ }
+
+Oznacza kontrakt: zawartości obiektu - niekoniecznie kolekcji - da ´
+się przejść za pomocą pętlii dla każdego.
+Pętla ta może być stosowana z tablicami oraz wszystkim klasami, które implementują interfejs Iterable<E>.
+ Interfejs Iterable służy głównie do wykorzystywania pętli typu for-each.  
+ 
+Closeable jest celem/źródłem danych które są możliwe do zamknięcia.
+void close() zamyka strumień oraz uwalnia zasoby systemowe
